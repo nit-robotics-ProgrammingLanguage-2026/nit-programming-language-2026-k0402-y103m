@@ -5,7 +5,7 @@ int main(void) {
     double d;           //入力
     double result;      //結果
     scanf("%lf",&d);q   //入力をキーボードから入力
-    ;// ここで計算
-    printf();           //結果を出力
+    result=d*1.08;// ここで計算
+    printf("%.2lf\n", result);           //結果を出力
     return 0;
 }
